@@ -12,6 +12,7 @@ def add_marks():
             obtained_marks= obtained_marks + marks
        except ValueError:
             print("enter numaric values")
+
     std["Obtained"] = obtained_marks
     std["percentage"] = obtained_marks/total_marks*100
     std["Grade"] = grade(std["percentage"])
@@ -38,6 +39,15 @@ def status(percentage):
     else:
         return "fail"
 
-add_marks()
+try:
+        save_result = int(input("How many results you want to save: "))
+        save_result += 1
+        for i in range (1,save_result):
+            print(i)
+            add_marks()
+except:
+    print("Enter a valid numaic number")
+
+
 print(std)
     
