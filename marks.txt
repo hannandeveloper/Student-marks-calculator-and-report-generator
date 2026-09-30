@@ -1,3 +1,10 @@
 {'name': 'hannan', '1 sub': 3, '2 sub': 4, '3 sub': 4, '4 sub': 4, '5 sub': 2}
 {'name': 'hannan', '1 sub': 3, '2 sub': 3, '3 sub': 3, '4 sub': 3, '5 sub': 3, 'percentage': 30.0}
 {'name': 'hanna', '1 sub': 10, '2 sub': 10, '3 sub': 10, '4 sub': 1, '5 sub': 10, 'percentage': 82.0, 'Grade': 'A'}
+{'name': 'hannan', '1 sub': 10, '2 sub': 10, '3 sub': 10, '4 sub': 10, '5 sub': 1, 'percentage': 82.0, 'Grade': 'A', 'Status': 'Pass'}
+{'name': 'hannan ', '1 sub': 4, '2 sub': 5, '3 sub': 7, '4 sub': 7, '5 sub': 5, 'percentage': 56.00000000000001, 'Grade': 'F', 'Status': 'fail'}
+{'name': 'hannan ', '1 sub': 3, '2 sub': 5, '3 sub': 5, '4 sub': 6, '5 sub': 4, 'Obtained': 23, 'percentage': 46.0, 'Grade': None, 'Status': 'fail'}
+{'name': 'hannan', '1 sub': 3, '2 sub': 5, '3 sub': 5, '4 sub': 6, '5 sub': 4, 'Obtained': 23, 'percentage': 46.0, 'Grade': None, 'Status': 'fail'}
+{'name': 'hannan', '1 sub': 4, '2 sub': 6, '3 sub': 7, '4 sub': 7, '5 sub': 7, 'Obtained': 31, 'percentage': 62.0, 'Grade': 'D', 'Status': 'fail'}
+{'name': 'hannan ', '1 sub': 5, '2 sub': 5, '3 sub': 5, '4 sub': 5, '5 sub': 5, 'Obtained': 25, 'percentage': 50.0, 'Grade': 'F', 'Status': 'Pass'}
+{'name': 'hannan ', '1 sub': 5, '2 sub': 5, '3 sub': 5, '4 sub': 5, '5 sub': 5, 'Obtained': 25, 'percentage': 50.0, 'Grade': 'D', 'Status': 'Pass'}
