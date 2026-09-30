@@ -9,6 +9,8 @@ def add_marks():
             std[f"{i} sub"] = marks
        except ValueError:
             print("enter numaric values")
+    with open("marks.txt","a") as file:
+        file.write(str(std))
     return std
 
 add_marks()
