@@ -19,3 +19,4 @@
 {'name': 'c', '1 sub': 56, '2 sub': 7, '3 sub': 5, '4 sub': 5, '5 sub': 7, 'Obtained': 80, 'percentage': 160.0, 'Grade': 'A+', 'Status': 'Pass'}
 {'name': 'h', '1 sub': 4, '2 sub': 3, '3 sub': 3, '4 sub': 3, 'Obtained': 13, 'percentage': 26.0, 'Grade': 'F', 'Status': 'fail'}
 {'name': '3', '1 sub': 5, '2 sub': 4, '3 sub': 5, '4 sub': 54, 'Obtained': 68, 'percentage': 136.0, 'Grade': 'A+', 'Status': 'Pass'}
+{'name': 'h', '1 sub': 3, '2 sub': 3, '3 sub': 5, '4 sub': 6, '5 sub': 4, 'Obtained': 21, 'percentage': 42.0, 'Grade': 'F', 'Status': 'fail'}

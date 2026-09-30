@@ -54,11 +54,16 @@ def view_all():
         result = data.read()
         print(result)
 
-try:
-    choice = int(input("enter your choice 1 for save && 2 for view result "))
-    if choice ==1 :
-        save()
-    elif choice == 2 :
-        view_all()
-except:
-    print("enter according to the instruction2")
+while True:
+    try:
+        choice = int(input("enter your choice 1 for save resutl && 2 for view result && 3 for exit : "))
+        if choice == 1:
+            save()
+        elif choice == 2:
+            view_all()
+        elif choice == 3:
+            break
+        else:
+            print("Please enter 1 or 2 or 3 only")
+    except ValueError:
+        print("enter according to the instruction")
