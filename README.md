@@ -1,4 +1,4 @@
-# Student marks calculator and report generator
+no# Student marks calculator and report generator
 
 ### Features
 You can make result of students by just adding name and marks. 
@@ -12,7 +12,7 @@ You can make result of students by just adding name and marks.
 - input
 - casting
 
-
+To run the project use the following command 
 ``` bash
-python Todo.py
+python app.py
 ```
