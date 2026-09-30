@@ -13,9 +13,26 @@ def add_marks():
        except ValueError:
             print("enter numaric values")
     std["percentage"] = obtained_marks/total_marks*100
+    std["Grade"] = grade(std["percentage"])
     with open("marks.txt","a") as file:
-        file.write(str(std))
+        file.write(f"\n{str(std)}")
     return std 
+
+def grade(percentage):
+    if percentage >= 90:
+        return "A+"
+    elif percentage >= 80:
+        return "A"
+    elif percentage >= 70:
+        return "B"
+    elif percentage>= 50:
+     return "F"
+
+def pass_or_fail(percentage):
+    if percentage >= 70:
+        return "Pass"
+    else:
+        return "fail"
 
 add_marks()
 print(std)
