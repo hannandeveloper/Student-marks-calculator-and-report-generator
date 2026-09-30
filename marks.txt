@@ -17,3 +17,5 @@
 {'name': 'a', '1 sub': 4, '2 sub': 3, '3 sub': 4, '4 sub': 4, '5 sub': 5, 'Obtained': 20, 'percentage': 40.0, 'Grade': 'F', 'Status': 'fail'}
 {'name': 'b', '1 sub': 4, '2 sub': 3, '3 sub': 5, '4 sub': 6, '5 sub': 6, 'Obtained': 24, 'percentage': 48.0, 'Grade': 'F', 'Status': 'fail'}
 {'name': 'c', '1 sub': 56, '2 sub': 7, '3 sub': 5, '4 sub': 5, '5 sub': 7, 'Obtained': 80, 'percentage': 160.0, 'Grade': 'A+', 'Status': 'Pass'}
+{'name': 'h', '1 sub': 4, '2 sub': 3, '3 sub': 3, '4 sub': 3, 'Obtained': 13, 'percentage': 26.0, 'Grade': 'F', 'Status': 'fail'}
+{'name': '3', '1 sub': 5, '2 sub': 4, '3 sub': 5, '4 sub': 54, 'Obtained': 68, 'percentage': 136.0, 'Grade': 'A+', 'Status': 'Pass'}

@@ -18,7 +18,7 @@ def add_marks():
     std["Grade"] = grade(std["percentage"])
     std["Status"] = status(std["percentage"])
     with open("marks.txt","a") as file:
-        file.write(f"\n{str(std)}")
+        file.write(f"\n{std}")
     return std 
 
 def grade(percentage):
@@ -39,15 +39,20 @@ def status(percentage):
     else:
         return "fail"
 
-try:
+def save():
+    try:
         save_result = int(input("How many results you want to save: "))
         save_result += 1
         for i in range (1,save_result):
             print(i)
             add_marks()
-except:
-    print("Enter a valid numaic number")
+    except:
+       print("Enter a valid numaic number")
+
+def view_all():
+    with open("marks.txt","r") as data:
+        result = data.read()
+        print(result)
 
 
-print(std)
     
